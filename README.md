@@ -2,7 +2,12 @@
 
 ## overview
 
--This Sol/Token distribution works from a single wallet to multiple wallets in a way that remains undetectable by Bubble Maps. The setup works reliably with around 30–35 wallets in maximum.
+-This Sol/Token distribution works from a single wallet to multiple wallets in a way that remains undetectable by Bubble Maps. The setup works reliably with around 30–35 wallets in batch.
+
+A single Solana transaction has a maximum size of 1232 bytes.
+Since one account public key is 32 bytes, this theoretically allows for 1232 / 32 ≈ 38 accounts per transaction.
+In practice, after accounting for instructions, signatures, and overhead, the realistic limit is around 30–35 wallets per transaction.
+Because this distribution is implemented by smart contract.
 
 - It can be customisable with new features
 - It is under private mode if you need let's chat on [telegram](https://t.me/roswellecho)
