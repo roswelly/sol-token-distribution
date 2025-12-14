@@ -1,4 +1,4 @@
-# Solana / MemeCoin Distribution
+# Solana / SPL token Distribution
 
 ## overview
 
